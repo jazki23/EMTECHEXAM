@@ -12,7 +12,7 @@ class_names = ['airplane', 'automobile', 'bird', 'cat', 'deer',
 # Load model
 model = load_model("cifar10_model.h5")
 
-st.title("🚀 CIFAR-10 Image Classifier")
+st.title("CIFAR-10 Image Classifier")
 st.write("Upload an image (32x32 or larger), and this app will classify it.")
 
 uploaded_file = st.file_uploader("Choose an image...", type=["jpg", "jpeg", "png"])
